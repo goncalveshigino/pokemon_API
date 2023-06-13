@@ -51,7 +51,7 @@ export class PokemonService {
 
 
 
-  async findOne(term: string) {
+  async findOne( term: string ) {
     
     let pokemon: Pokemon;
 
