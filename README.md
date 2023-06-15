@@ -36,3 +36,11 @@ http://localhost:3000/api/v2/seed
 ## Stack usdado
 * MongoDB
 * Nest
+
+# Production Build
+1. Criar o arquivo ```.env.pro```
+2. Chamar as variaveis retorno do prod
+3. Criar uma nova imagem
+```
+docker-compose -f docker-compose.prod.yaml --env-file .env.prod up --build
+```
